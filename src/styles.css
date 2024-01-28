@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(180deg, var(--bs-secondary-bg), var(--bs-body-bg) 100px, var(--bs-body-bg));
+    /* background-color: #008c41; */
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+  
+  .pricing-header {
+    max-width: 700px;
+  }
+
+  .me-2 {
+    margin-right: 0.5rem!important;
+    /* text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 4px;
+    text-decoration-line: underline; */
+}
+
+.me-2:active {
+    margin-right: 0.5rem!important;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+}
+
+.fs-4{
+    margin-left: 5px;
+}
+
+.text-bg-primary{
+    background-color: rgb(11, 77, 118) !important;
+}
+
+.border-primary{
+    border-color: blueviolet !important;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+ 
+}
+
+.pt-4{
+  padding: 0 11rem;
+}
